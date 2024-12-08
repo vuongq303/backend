@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require("../app");
+var app = require("./bin/app");
 var debug = require("debug")("generator:server");
 var http = require("http");
 var mongoose = require("mongoose");
