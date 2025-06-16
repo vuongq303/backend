@@ -4,13 +4,8 @@ const emailTrans = require("../middleware/email");
 const env = require("../config/env");
 
 router.get("/", function (req, res) {
-    res.status(200).send(`
-        <a href='/tien-do'>Tiến độ </a> |
-        <a href='/vi-tri'>Vị trí </a> |
-        <a href='/gia-ban'>Giá bán </a> |
-        <a href='/tin-tuc'>Tin tức </a> |
-        <a href='/lien-he'>Liên hệ </a>`);
-})
+    res.status(200).render("index");
+});
 
 router.get("/lien-he", function (req, res) {
     res.status(200).render('lien-he');
