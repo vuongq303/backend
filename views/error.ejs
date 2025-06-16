@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error <%=status %>
+  </title>
+
+  <link rel="stylesheet" href="https://duancaoxala.com/css/flatsome.css" />
+  <link rel="stylesheet" href="https://duancaoxala.com/css/custom.css" />
+  <link rel="stylesheet" href="https://duancaoxala.com/css/styles.css" />
+  <link rel="stylesheet" href="https://duancaoxala.com/css/css.css" />
+  <link rel="stylesheet" href="https://duancaoxala.com/css/error.css">
+  <link rel="stylesheet" href="https://duancaoxala.com/css/global-styles-inline.css" />
+  <script type="text/javascript" src="https://duancaoxala.com/js/jquery.min.js"></script>
+
+  <style rel="stylesheet" type="text/css" media="all">
+    body {
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @font-face {
+      font-family: "fl-icons";
+      font-display: block;
+      src: url(https://duancaoxala.com/media/fonts/fl-icons.eot?v=3.15.7);
+      src: url(https://duancaoxala.com/media/fonts/fl-icons.eot#iefix?v=3.15.7) format("embedded-opentype"),
+        url(https://duancaoxala.com/media/fonts/fl-icons.woff2) format("woff2"),
+        url(https://duancaoxala.com/media/fonts/fl-icons.ttf?v=3.15.7) format("truetype"),
+        url(https://duancaoxala.com/media/fonts/fl-icons.woff?v=3.15.7) format("woff"),
+        url(https://duancaoxala.com/media/fonts/fl-icons.svg?v=3.15.7#fl-icons) format("svg");
+    }
+  </style>
+</head>
+
+<body
+  class="home wp-singular page-template page-template-page-blank page-template-page-blank-php page page-id-2 wp-theme-flatsome wp-child-theme-flatsome-child lightbox nav-dropdown-has-arrow nav-dropdown-has-shadow nav-dropdown-has-border">
+  <div id="wrapper">
+    <%-include('header') %>
+
+      <section class="section page-404 text-center">
+        <div class="container">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="four_zero_four_bg" style="margin-bottom: 30px">
+                <h1 class="uppercase" style="font-size: 60px; font-weight: bold">
+                  Error <%=status %>
+                </h1>
+              </div>
+              <div class="contant_box_404">
+                <h2 class="uppercase" style="margin-bottom: 10px">
+                  <%=title %>
+                </h2>
+                <p style="margin-bottom: 20px">
+                  <%=message %>
+                </p>
+                <a href="/" class="button primary">Trở về trang chủ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <%-include('footer') %>
+  </div>
+</body>
+<script type="text/javascript" src="https://duancaoxala.com/js/popup.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/flatsome-extra.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/hooks.min.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/i18n.min.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/flatsome-live-search.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/wp-polyfill.min.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/hoverIntent.min.js"></script>
+<script type="text/javascript" src="https://duancaoxala.com/js/flatsome.js"></script>
+
+</html>
